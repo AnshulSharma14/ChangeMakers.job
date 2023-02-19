@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ChangeMakers.job.Models.Jobs>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<section class="container-fluid">
+        <div class="container" style="margin-top: 5rem;">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-10">
+                            <h1>FuLL-Time and Part-Time 
+                                Jobs with instant Payment</h1>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-9 text-center">
+                            <h6> <span style="color: blue; font-size: 18px; font-weight: 500;"> ChangeMakers.Job </span>is your one-stop-centre for thousands of part-time and full-time jobs.</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 ">
+					
+						<img class="img-fluid" src="~/lib/Images/99a4239eb7f5b9ec32946a1c7fbf05d0.png" />
+				
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="row pb-3">
+	@foreach (var jobs in Model)
+	{
+
+		 <div class="col-3">
+                <div class="card text-white bg-secondary mb-3 mt-4" style="width: 18rem;">
+                    <div class="card-body" style="box-shadow:2px 2px 12px #ccc; height:290px">
+                    <h4 class="card-title">@jobs.Category.Name</h4><h6>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building-fill-check" viewBox="0 0 16 16">
+                            <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514Z" />
+                            <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z" />
+                        </svg>@jobs.CompanyName
+                    </h6>
+                      <hr>
+                    <p class="card-text">@Html.Raw(@jobs.Description)</p>
+                      <div class="row ms-3">
+                        <div class="col-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-rupee" viewBox="0 0 16 16">
+                                <path d="M4 3.06h2.726c1.22 0 2.12.575 2.325 1.724H4v1.051h5.051C8.855 7.001 8 7.558 6.788 7.558H4v1.317L8.437 14h2.11L6.095 8.884h.855c2.316-.018 3.465-1.476 3.688-3.049H12V4.784h-1.345c-.08-.778-.357-1.335-.793-1.732H12V2H4v1.06Z" />
+                            </svg> @jobs.Salary
+                        </div>
+                        <div class="col-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                            </svg> @jobs.JobCities.Name
+                        </div>
+                      </div>
+                      <div class="row text-center mt-4">
+                        <div class="col-12">
+                     <a asp-action="Apply" class="btn btn-primary form-control"> @*asp-route-JobId="@jobs.Id*@
+							Easy Apply
+                     </a>
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+	}
+</div>

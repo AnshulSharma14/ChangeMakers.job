@@ -1,0 +1,14 @@
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\bin\Debug\net6.0\ChangeMakers.job.Utility.deps.json
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\bin\Debug\net6.0\ChangeMakers.job.Utility.runtimeconfig.json
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\bin\Debug\net6.0\ChangeMakers.job.Utility.dll
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\bin\Debug\net6.0\ChangeMakers.job.Utility.pdb
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ChangeMakers.job.Utility.csproj.AssemblyReference.cache
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ChangeMakers.job.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ChangeMakers.job.Utility.AssemblyInfoInputs.cache
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ChangeMakers.job.Utility.AssemblyInfo.cs
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ChangeMakers.job.Utility.csproj.CoreCompileInputs.cache
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ChangeMakers.job.Utility.dll
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\refint\ChangeMakers.job.Utility.dll
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ChangeMakers.job.Utility.pdb
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ChangeMakers.job.Utility.genruntimeconfig.cache
+C:\Users\kinga\source\BookShopingEcommerce\ChangeMakers.job.Utility\obj\Debug\net6.0\ref\ChangeMakers.job.Utility.dll

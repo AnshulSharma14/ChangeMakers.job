@@ -1,0 +1,90 @@
+﻿@model ChangeMakers.job.Models.ViewModels.JobsVM
+@{
+    ViewData["Title"] = "Upsert";
+    var title = Model.jobs.Id != 0 ? "Modify Job" : "New Job";
+    var saveupd = Model.jobs.Id != 0 ? "Update" : "save";
+}
+<form method="post" >
+    <input asp-for="jobs.Id" hidden />
+     <div class="row">
+		<div class="col-10">
+			<div class="border p-3 mt-4 row">
+				<div class="col-12 pb-2">
+					 <h2 class="text-primay">@title</h2>
+					 <hr />
+				</div>
+				<div class="mb-3">
+					<label asp-for="jobs.Name"></label>
+					<input asp-for="jobs.Name" class="form-control" />
+					<span asp-validation-for="jobs.Name" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="jobs.Email"></label>
+					<input asp-for="jobs.Email" class="form-control" />
+					<span asp-validation-for="jobs.Email" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+			<label asp-for="jobs.Description"></label>
+			<textarea asp-for="jobs.Description" rows="2" class="form-control"></textarea>
+			<span asp-validation-for="jobs.Description" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label asp-for="jobs.JobCategoryId">Category</label>
+					<select asp-for="jobs.JobCategoryId" asp-items="Model.JobCategoryList" class="form-select">
+						<option disabled selected>--Select Category--</option>
+					</select>
+					<span asp-validation-for="jobs.JobCategoryId" class="text-danger"></span>
+				</div>
+				<div class="mb-3 col-6">
+					<label asp-for="jobs.JobTypeId">Job-Type</label>
+					<select asp-for="jobs.JobTypeId" asp-items="Model.JobTypeList" class="form-select">
+						<option disabled selected>--Select Job Type--</option>
+					</select>
+					<span asp-validation-for="jobs.JobTypeId" class="text-danger"></span>
+				</div>
+
+				<div class="mb-3 col-6">
+					<label asp-for="jobs.JobCityId">City</label>
+					<select asp-for="jobs.JobCityId" asp-items="Model.JobCityList" class="form-select">
+						<option disabled selected>--Select Job city--</option>
+					</select>
+					<span asp-validation-for="jobs.JobCityId" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="jobs.CompanyName"></label>
+					<input asp-for="jobs.CompanyName" class="form-control" />
+					<span asp-validation-for="jobs.CompanyName" class="text-danger"></span>
+				</div>
+				<div class="mb-3">
+					<label asp-for="jobs.Salary"></label>
+					<input asp-for="jobs.Salary" class="form-control" />
+					<span asp-validation-for="jobs.Salary" class="text-danger"></span>
+				</div>
+				<div class="col-12 p-5">
+             @if (Model.jobs.Id != 0)
+                    {
+						<button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+                    }
+                    else
+                    {
+                    <button type="submit"  class="btn btn-primary" style="width:150px">Create</button>
+					}
+					 <a asp-action="Index"class="btn btn-dark">
+                      <i class="fa fa-arrow-left"></i> Back to Index
+                     </a>
+				</div>
+				</div>
+				</div>
+				</div>
+</form>
+@section scripts{
+  @{  <partial name="_ValidationScriptsPartial" />
+}
+<script>
+	  tinymce.init({
+      selector: 'textarea',
+      plugins: 'advlist autolink lists link image charmap print preview hr anchor pagebreak',
+      toolbar_mode: 'floating',
+   });
+	</script>
+}

@@ -1,0 +1,17 @@
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\bin\Debug\net6.0\Changemakers.job.DataAccess.deps.json
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\bin\Debug\net6.0\Changemakers.job.DataAccess.runtimeconfig.json
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\bin\Debug\net6.0\Changemakers.job.DataAccess.dll
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\bin\Debug\net6.0\Changemakers.job.DataAccess.pdb
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\bin\Debug\net6.0\ChangeMakers.job.Models.dll
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\bin\Debug\net6.0\ChangeMakers.job.Models.pdb
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.csproj.AssemblyReference.cache
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.AssemblyInfoInputs.cache
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.AssemblyInfo.cs
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.csproj.CopyComplete
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.dll
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\refint\Changemakers.job.DataAccess.dll
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.pdb
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\Changemakers.job.DataAccess.genruntimeconfig.cache
+C:\Users\kinga\source\BookShopingEcommerce\Changemakers.job.DataAccess\obj\Debug\net6.0\ref\Changemakers.job.DataAccess.dll
